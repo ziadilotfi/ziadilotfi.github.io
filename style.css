@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: relative;
+    opacity: 0.9;
+    
+}
+.navlink{
+    color: #fff;
+}
+.navlink:hover {
+    color:#000;
+}
+.navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+#showcase {
+    position: relative;
+    background: url("/img/background-test.jpg");
+    min-height: 600px;
+    
+}
+.img {
+    position:relative;
+}
+.lead{
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.lead-heading {
+    color: #000;
+}
+.lead:hover {
+    color: #000;
+}
+.lead-heading:hover{
+    color: white;
+}
