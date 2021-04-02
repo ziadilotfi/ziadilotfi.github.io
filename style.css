@@ -1,6 +1,8 @@
 
 *{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body {
     margin: 0;
@@ -212,5 +214,11 @@ body {
     }
 }
 
-
-
+#contact{
+    background-color: rgba(12, 12, 54, 0.9);
+    text-transform: uppercase;
+}
+.fab{
+    font-size: 36px;
+    color:rgba(12, 12, 54, 0.9);
+}
