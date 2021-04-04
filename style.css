@@ -17,7 +17,7 @@ body {
     color: rgb(255, 255, 255);
 }
 .navlink:hover {
-    color:rgb(0, 0, 0);
+    color:rgb(117, 115, 115);
 }
 .navbar .nav-item {
     font-size: 1.4rem;
@@ -114,6 +114,7 @@ body {
 }
 #mywork{
     background-color: rgba(12, 12, 54, 0.9);
+   
 }
 .inner {
     padding-top: 20px;
@@ -221,4 +222,9 @@ body {
 .fab{
     font-size: 36px;
     color:rgba(12, 12, 54, 0.9);
+    padding: 20px;
+}
+.skills-icons {
+   display: block;
+    
 }
