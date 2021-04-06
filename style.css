@@ -224,6 +224,11 @@ body {
     color:rgba(12, 12, 54, 0.9);
     padding: 20px;
 }
+.fa {
+    font-size: 36px;
+    color:rgba(12, 12, 54, 0.9);
+    padding: 20px;
+}
 .skills-icons {
    display: block;
     
