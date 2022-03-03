@@ -69,14 +69,14 @@
                 </div>
             </div>
         </div>
-        <div class="projects pt-4 pb-5">
+        <div class="projects pt-4 pb-5 reveal">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 mb-4">
                         <h3 class="projects-title">Projects</h3>
                     </div>
                     <div class="col-lg-3 my-2 mx-auto">
-                        <a href="http://swapdz.com/">
+                        <a href="/summit_properties/index.html">
                         <div class="box-1 mx-auto my-2">
                             
                         </div>
@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="border-light mt-3"></div>
-        <div class="container py-3">
+        <div class="container py-3 reveal">
             <div class="row">
                 <div class="col-lg-12">
                     <h2 class="text-center about-title my-3">About Me</h2>
@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="border-light"></div>
-        <section class="skills" id="skills">
+        <section class="skills reveal" id="skills">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -204,7 +204,21 @@
 
 
 
+        <script>
+            window.addEventListener('scroll' , reveal);
+        function reveal (){
+          var reveals = document.querySelectorAll('.reveal')
+          for (var i = 0  ; i < reveals.length ; i++){
+            var windowHeight = window.innerHeight;
+            var revealTop = reveals[i].getBoundingClientRect().top
+            var revealPoint = 150 
 
+            if (revealTop < windowHeight - revealPoint) {
+              reveals[i].classList.add('active');
+            } 
+          }
+        }
+        </script>
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
           <!-- Bootstrap tooltips -->
           <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
