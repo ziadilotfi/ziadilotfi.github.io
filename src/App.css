@@ -1,0 +1,260 @@
+* {
+    font-family: 'Sora', sans-serif;
+}
+body {
+    background-color: #0F1624;
+    overflow-x: hidden;
+    scroll-behavior: smooth !important;
+}
+.navbar-brand span {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 40px;
+    opacity: .8 !important;
+}
+.navbar {
+    box-shadow: none;
+}
+.nav-link {
+    opacity: .7 !important;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+.nav-link:hover {
+    opacity: 1 !important;
+    font-weight: 500;
+}
+.nav-link:active {
+    background: none !important;
+  }
+.nav-item .icons {
+    font-size: 1.6rem;
+}
+
+/* Header */
+
+.header h1 {
+    color: #fff;
+    opacity: 100%;
+}
+.stack {
+    height:28em;
+    width:auto;
+    background-image: url('/src/assets/images/animation.svg');
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-stack {
+    display: inline-block;
+    vertical-align: middle;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/* Projects */
+.projects h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.75);
+}
+.project-card {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.project-img {
+    border-radius: 5px;
+    height: 15.5em;
+    width: auto;
+    background-size: cover;
+    background-position: top;
+    opacity: .75;
+}
+
+
+.project-card h3 {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 25px;
+}
+.project-card p {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 35px;
+}
+.border-light {
+    border: 3px #fff solid;
+    width: 4rem;
+    margin: 0 auto;
+}
+.project-card h6 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.stack-icons {
+    margin: 0 auto;
+    text-align: center;
+}
+.stack-icons img {
+    height: 35px;
+    width: auto;
+    margin: 0 .1em;
+}
+.links {
+    text-align: center;
+    margin: .4em 0;
+}
+.links a {
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 33px;
+    margin: 0 .3em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+a:not([href]):not([tabindex]), a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}
+
+/* Portfolio Projects */
+.portfolio-project-img-1 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://ik.imagekit.io/amac/screencapture-passupgen-herokuapp-2022-03-17-11_25_11_pR6IjbCcg.png");
+    border-radius: 5px;
+    height: 15em;
+    width: auto;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.portfolio-project-img-2 {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://ik.imagekit.io/amac/screencapture-l1gend-ml-qrcodegenerator-2022-03-20-12_36_53__1___-ZnK15Ke.png");
+    border-radius: 5px;
+    height: 15em;
+    width: auto;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.project-card h4 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+/* Skills Section  */
+#skills h2,
+.blog-posts h2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.75);
+}
+#skills h4 {
+     text-align: center;
+    margin: 1rem 0 1rem 0 ;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.75);
+}
+#skills ul {
+    list-style: none;
+}
+#skills li {
+    margin: .7rem 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+/* Blog Posts  */
+
+.blog-post-card{
+    width: 100%;
+    margin: 1em auto;
+    
+}
+.post-img {
+    border-radius: 5px;
+    height: 12em;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+.blog-post-card h4 {
+    margin: .4em 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.blog-post-card p {
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 18px;
+    color: #ccc;
+    text-align: center;
+}
+.border-white {
+    border: 1px solid #fff;
+    opacity: .7;
+}
+
+/* Footer  */
+
+footer h3 {
+    font-weight: 600;
+    font-size: 1.7rem;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+} 
+footer .btn {
+    border-radius: 8px;
+}
+@media only screen and (max-width: 425px){
+    .nav-social-icons {
+        display: none;
+    }
+    .txt-h3 {
+        margin: -1.2em 0 .3em 0 ;
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .nav-social-icons {
+        display: none;
+    }
+    .txt-h3 {
+        margin: -1.2em 0 .3em 0 ;
+    }
+
+}
+@media only screen and (max-width: 992px){
+    .nav-social-icons {
+        display: none;
+    }
+    .txt-h3 {
+        margin: -1.2em 0 .3em 0 ;
+    }
+}
